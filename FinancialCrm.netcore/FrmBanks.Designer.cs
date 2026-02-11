@@ -29,17 +29,17 @@
         private void InitializeComponent()
         {
             panel1 = new Panel();
-            lblCategoriesForm = new Button();
-            lblBanksForm = new Button();
-            lblİnvoicesFrom = new Button();
-            btnBillForm = new Button();
-            lblBankForm = new Button();
-            lblDashboardForm = new Button();
-            lblSettingForm = new Button();
             lblExitForm = new Button();
+            lblSettingForm = new Button();
+            lblDashboardForm = new Button();
+            lblBankForm = new Button();
+            btnBillForm = new Button();
+            lblİnvoicesFrom = new Button();
+            lblBanksForm = new Button();
+            lblCategoriesForm = new Button();
             panel2 = new Panel();
-            label1 = new Label();
             lblZiraatBankBalance = new Label();
+            label1 = new Label();
             panel3 = new Panel();
             lblVakifBankBalance = new Label();
             label4 = new Label();
@@ -47,16 +47,16 @@
             lblİsBankasiBalance = new Label();
             label6 = new Label();
             groupBox1 = new GroupBox();
-            lblBankProcess1 = new Label();
-            label8 = new Label();
-            label9 = new Label();
-            lblBankProcess2 = new Label();
-            label11 = new Label();
-            lblBankProcess3 = new Label();
-            label13 = new Label();
-            lblBankProcess4 = new Label();
             label15 = new Label();
             lblBankProcess5 = new Label();
+            label13 = new Label();
+            lblBankProcess4 = new Label();
+            label11 = new Label();
+            lblBankProcess3 = new Label();
+            label9 = new Label();
+            lblBankProcess2 = new Label();
+            label8 = new Label();
+            lblBankProcess1 = new Label();
             panel5 = new Panel();
             label17 = new Label();
             panel1.SuspendLayout();
@@ -83,83 +83,18 @@
             panel1.Size = new Size(211, 447);
             panel1.TabIndex = 0;
             // 
-            // lblCategoriesForm
+            // lblExitForm
             // 
-            lblCategoriesForm.BackColor = Color.Transparent;
-            lblCategoriesForm.FlatStyle = FlatStyle.Flat;
-            lblCategoriesForm.Font = new Font("Calibri", 12F, FontStyle.Regular, GraphicsUnit.Point, 162);
-            lblCategoriesForm.ForeColor = Color.Transparent;
-            lblCategoriesForm.Location = new Point(22, 22);
-            lblCategoriesForm.Name = "lblCategoriesForm";
-            lblCategoriesForm.Size = new Size(167, 43);
-            lblCategoriesForm.TabIndex = 1;
-            lblCategoriesForm.Text = "Kategoriler";
-            lblCategoriesForm.UseVisualStyleBackColor = false;
-            // 
-            // lblBanksForm
-            // 
-            lblBanksForm.BackColor = Color.Transparent;
-            lblBanksForm.FlatStyle = FlatStyle.Flat;
-            lblBanksForm.Font = new Font("Calibri", 12F, FontStyle.Regular, GraphicsUnit.Point, 162);
-            lblBanksForm.ForeColor = Color.Transparent;
-            lblBanksForm.Location = new Point(22, 71);
-            lblBanksForm.Name = "lblBanksForm";
-            lblBanksForm.Size = new Size(167, 43);
-            lblBanksForm.TabIndex = 2;
-            lblBanksForm.Text = "Bankalar";
-            lblBanksForm.UseVisualStyleBackColor = false;
-            // 
-            // lblİnvoicesFrom
-            // 
-            lblİnvoicesFrom.BackColor = Color.Transparent;
-            lblİnvoicesFrom.FlatStyle = FlatStyle.Flat;
-            lblİnvoicesFrom.Font = new Font("Calibri", 12F, FontStyle.Regular, GraphicsUnit.Point, 162);
-            lblİnvoicesFrom.ForeColor = Color.Transparent;
-            lblİnvoicesFrom.Location = new Point(22, 120);
-            lblİnvoicesFrom.Name = "lblİnvoicesFrom";
-            lblİnvoicesFrom.Size = new Size(167, 43);
-            lblİnvoicesFrom.TabIndex = 3;
-            lblİnvoicesFrom.Text = "Faturalar";
-            lblİnvoicesFrom.UseVisualStyleBackColor = false;
-            // 
-            // btnBillForm
-            // 
-            btnBillForm.BackColor = Color.Transparent;
-            btnBillForm.FlatStyle = FlatStyle.Flat;
-            btnBillForm.Font = new Font("Calibri", 12F, FontStyle.Regular, GraphicsUnit.Point, 162);
-            btnBillForm.ForeColor = Color.Transparent;
-            btnBillForm.Location = new Point(22, 169);
-            btnBillForm.Name = "btnBillForm";
-            btnBillForm.Size = new Size(167, 43);
-            btnBillForm.TabIndex = 4;
-            btnBillForm.Text = "Giderler";
-            btnBillForm.UseVisualStyleBackColor = false;
-            // 
-            // lblBankForm
-            // 
-            lblBankForm.BackColor = Color.Transparent;
-            lblBankForm.FlatStyle = FlatStyle.Flat;
-            lblBankForm.Font = new Font("Calibri", 12F, FontStyle.Regular, GraphicsUnit.Point, 162);
-            lblBankForm.ForeColor = Color.Transparent;
-            lblBankForm.Location = new Point(22, 221);
-            lblBankForm.Name = "lblBankForm";
-            lblBankForm.Size = new Size(167, 43);
-            lblBankForm.TabIndex = 5;
-            lblBankForm.Text = "Banka";
-            lblBankForm.UseVisualStyleBackColor = false;
-            // 
-            // lblDashboardForm
-            // 
-            lblDashboardForm.BackColor = Color.Transparent;
-            lblDashboardForm.FlatStyle = FlatStyle.Flat;
-            lblDashboardForm.Font = new Font("Calibri", 12F, FontStyle.Regular, GraphicsUnit.Point, 162);
-            lblDashboardForm.ForeColor = Color.Transparent;
-            lblDashboardForm.Location = new Point(22, 270);
-            lblDashboardForm.Name = "lblDashboardForm";
-            lblDashboardForm.Size = new Size(167, 43);
-            lblDashboardForm.TabIndex = 6;
-            lblDashboardForm.Text = "Dashboard";
-            lblDashboardForm.UseVisualStyleBackColor = false;
+            lblExitForm.BackColor = Color.Transparent;
+            lblExitForm.FlatStyle = FlatStyle.Flat;
+            lblExitForm.Font = new Font("Calibri", 12F, FontStyle.Regular, GraphicsUnit.Point, 162);
+            lblExitForm.ForeColor = Color.Transparent;
+            lblExitForm.Location = new Point(22, 368);
+            lblExitForm.Name = "lblExitForm";
+            lblExitForm.Size = new Size(167, 43);
+            lblExitForm.TabIndex = 8;
+            lblExitForm.Text = "Çıkış Yap";
+            lblExitForm.UseVisualStyleBackColor = false;
             // 
             // lblSettingForm
             // 
@@ -174,18 +109,83 @@
             lblSettingForm.Text = "Ayarlar ";
             lblSettingForm.UseVisualStyleBackColor = false;
             // 
-            // lblExitForm
+            // lblDashboardForm
             // 
-            lblExitForm.BackColor = Color.Transparent;
-            lblExitForm.FlatStyle = FlatStyle.Flat;
-            lblExitForm.Font = new Font("Calibri", 12F, FontStyle.Regular, GraphicsUnit.Point, 162);
-            lblExitForm.ForeColor = Color.Transparent;
-            lblExitForm.Location = new Point(22, 368);
-            lblExitForm.Name = "lblExitForm";
-            lblExitForm.Size = new Size(167, 43);
-            lblExitForm.TabIndex = 8;
-            lblExitForm.Text = "Çıkış Yap";
-            lblExitForm.UseVisualStyleBackColor = false;
+            lblDashboardForm.BackColor = Color.Transparent;
+            lblDashboardForm.FlatStyle = FlatStyle.Flat;
+            lblDashboardForm.Font = new Font("Calibri", 12F, FontStyle.Regular, GraphicsUnit.Point, 162);
+            lblDashboardForm.ForeColor = Color.Transparent;
+            lblDashboardForm.Location = new Point(22, 270);
+            lblDashboardForm.Name = "lblDashboardForm";
+            lblDashboardForm.Size = new Size(167, 43);
+            lblDashboardForm.TabIndex = 6;
+            lblDashboardForm.Text = "Dashboard";
+            lblDashboardForm.UseVisualStyleBackColor = false;
+            // 
+            // lblBankForm
+            // 
+            lblBankForm.BackColor = Color.Transparent;
+            lblBankForm.FlatStyle = FlatStyle.Flat;
+            lblBankForm.Font = new Font("Calibri", 12F, FontStyle.Regular, GraphicsUnit.Point, 162);
+            lblBankForm.ForeColor = Color.Transparent;
+            lblBankForm.Location = new Point(22, 221);
+            lblBankForm.Name = "lblBankForm";
+            lblBankForm.Size = new Size(167, 43);
+            lblBankForm.TabIndex = 5;
+            lblBankForm.Text = "Banka";
+            lblBankForm.UseVisualStyleBackColor = false;
+            // 
+            // btnBillForm
+            // 
+            btnBillForm.BackColor = Color.Transparent;
+            btnBillForm.FlatStyle = FlatStyle.Flat;
+            btnBillForm.Font = new Font("Calibri", 12F, FontStyle.Regular, GraphicsUnit.Point, 162);
+            btnBillForm.ForeColor = Color.Transparent;
+            btnBillForm.Location = new Point(22, 169);
+            btnBillForm.Name = "btnBillForm";
+            btnBillForm.Size = new Size(167, 43);
+            btnBillForm.TabIndex = 4;
+            btnBillForm.Text = "Giderler";
+            btnBillForm.UseVisualStyleBackColor = false;
+            // 
+            // lblİnvoicesFrom
+            // 
+            lblİnvoicesFrom.BackColor = Color.Transparent;
+            lblİnvoicesFrom.FlatStyle = FlatStyle.Flat;
+            lblİnvoicesFrom.Font = new Font("Calibri", 12F, FontStyle.Regular, GraphicsUnit.Point, 162);
+            lblİnvoicesFrom.ForeColor = Color.Transparent;
+            lblİnvoicesFrom.Location = new Point(22, 120);
+            lblİnvoicesFrom.Name = "lblİnvoicesFrom";
+            lblİnvoicesFrom.Size = new Size(167, 43);
+            lblİnvoicesFrom.TabIndex = 3;
+            lblİnvoicesFrom.Text = "Faturalar";
+            lblİnvoicesFrom.UseVisualStyleBackColor = false;
+            // 
+            // lblBanksForm
+            // 
+            lblBanksForm.BackColor = Color.Transparent;
+            lblBanksForm.FlatStyle = FlatStyle.Flat;
+            lblBanksForm.Font = new Font("Calibri", 12F, FontStyle.Regular, GraphicsUnit.Point, 162);
+            lblBanksForm.ForeColor = Color.Transparent;
+            lblBanksForm.Location = new Point(22, 71);
+            lblBanksForm.Name = "lblBanksForm";
+            lblBanksForm.Size = new Size(167, 43);
+            lblBanksForm.TabIndex = 2;
+            lblBanksForm.Text = "Bankalar";
+            lblBanksForm.UseVisualStyleBackColor = false;
+            // 
+            // lblCategoriesForm
+            // 
+            lblCategoriesForm.BackColor = Color.Transparent;
+            lblCategoriesForm.FlatStyle = FlatStyle.Flat;
+            lblCategoriesForm.Font = new Font("Calibri", 12F, FontStyle.Regular, GraphicsUnit.Point, 162);
+            lblCategoriesForm.ForeColor = Color.Transparent;
+            lblCategoriesForm.Location = new Point(22, 22);
+            lblCategoriesForm.Name = "lblCategoriesForm";
+            lblCategoriesForm.Size = new Size(167, 43);
+            lblCategoriesForm.TabIndex = 1;
+            lblCategoriesForm.Text = "Kategoriler";
+            lblCategoriesForm.UseVisualStyleBackColor = false;
             // 
             // panel2
             // 
@@ -197,17 +197,6 @@
             panel2.Size = new Size(277, 129);
             panel2.TabIndex = 1;
             // 
-            // label1
-            // 
-            label1.AutoSize = true;
-            label1.Font = new Font("Calibri", 12F, FontStyle.Bold);
-            label1.ForeColor = Color.Transparent;
-            label1.Location = new Point(3, 9);
-            label1.Name = "label1";
-            label1.Size = new Size(129, 24);
-            label1.TabIndex = 0;
-            label1.Text = "Ziraat Bankası";
-            // 
             // lblZiraatBankBalance
             // 
             lblZiraatBankBalance.AutoSize = true;
@@ -218,6 +207,17 @@
             lblZiraatBankBalance.Size = new Size(217, 58);
             lblZiraatBankBalance.TabIndex = 1;
             lblZiraatBankBalance.Text = "0000.00 ₺";
+            // 
+            // label1
+            // 
+            label1.AutoSize = true;
+            label1.Font = new Font("Calibri", 12F, FontStyle.Bold);
+            label1.ForeColor = Color.Transparent;
+            label1.Location = new Point(3, 9);
+            label1.Name = "label1";
+            label1.Size = new Size(129, 24);
+            label1.TabIndex = 0;
+            label1.Text = "Ziraat Bankası";
             // 
             // panel3
             // 
@@ -303,65 +303,25 @@
             groupBox1.TabStop = false;
             groupBox1.Text = "Son beş banka hareketi";
             // 
-            // lblBankProcess1
+            // label15
             // 
-            lblBankProcess1.AutoSize = true;
-            lblBankProcess1.Font = new Font("Calibri", 10.8F, FontStyle.Regular, GraphicsUnit.Point, 162);
-            lblBankProcess1.Location = new Point(6, 30);
-            lblBankProcess1.Name = "lblBankProcess1";
-            lblBankProcess1.Size = new Size(71, 22);
-            lblBankProcess1.TabIndex = 0;
-            lblBankProcess1.Text = "Metin 1:";
+            label15.AutoSize = true;
+            label15.Font = new Font("Calibri", 10.8F, FontStyle.Regular, GraphicsUnit.Point, 162);
+            label15.Location = new Point(6, 228);
+            label15.Name = "label15";
+            label15.Size = new Size(826, 22);
+            label15.TabIndex = 9;
+            label15.Text = "----------------------------------------------------------------------------------------------------------------------------------------";
             // 
-            // label8
+            // lblBankProcess5
             // 
-            label8.AutoSize = true;
-            label8.Font = new Font("Calibri", 10.8F, FontStyle.Regular, GraphicsUnit.Point, 162);
-            label8.Location = new Point(6, 52);
-            label8.Name = "label8";
-            label8.Size = new Size(826, 22);
-            label8.TabIndex = 1;
-            label8.Text = "----------------------------------------------------------------------------------------------------------------------------------------";
-            // 
-            // label9
-            // 
-            label9.AutoSize = true;
-            label9.Font = new Font("Calibri", 10.8F, FontStyle.Regular, GraphicsUnit.Point, 162);
-            label9.Location = new Point(6, 96);
-            label9.Name = "label9";
-            label9.Size = new Size(826, 22);
-            label9.TabIndex = 3;
-            label9.Text = "----------------------------------------------------------------------------------------------------------------------------------------";
-            // 
-            // lblBankProcess2
-            // 
-            lblBankProcess2.AutoSize = true;
-            lblBankProcess2.Font = new Font("Calibri", 10.8F, FontStyle.Regular, GraphicsUnit.Point, 162);
-            lblBankProcess2.Location = new Point(6, 74);
-            lblBankProcess2.Name = "lblBankProcess2";
-            lblBankProcess2.Size = new Size(71, 22);
-            lblBankProcess2.TabIndex = 2;
-            lblBankProcess2.Text = "Metin 2:";
-            // 
-            // label11
-            // 
-            label11.AutoSize = true;
-            label11.Font = new Font("Calibri", 10.8F, FontStyle.Regular, GraphicsUnit.Point, 162);
-            label11.Location = new Point(6, 140);
-            label11.Name = "label11";
-            label11.Size = new Size(826, 22);
-            label11.TabIndex = 5;
-            label11.Text = "----------------------------------------------------------------------------------------------------------------------------------------";
-            // 
-            // lblBankProcess3
-            // 
-            lblBankProcess3.AutoSize = true;
-            lblBankProcess3.Font = new Font("Calibri", 10.8F, FontStyle.Regular, GraphicsUnit.Point, 162);
-            lblBankProcess3.Location = new Point(6, 118);
-            lblBankProcess3.Name = "lblBankProcess3";
-            lblBankProcess3.Size = new Size(71, 22);
-            lblBankProcess3.TabIndex = 4;
-            lblBankProcess3.Text = "Metin 3:";
+            lblBankProcess5.AutoSize = true;
+            lblBankProcess5.Font = new Font("Calibri", 10.8F, FontStyle.Regular, GraphicsUnit.Point, 162);
+            lblBankProcess5.Location = new Point(6, 206);
+            lblBankProcess5.Name = "lblBankProcess5";
+            lblBankProcess5.Size = new Size(71, 22);
+            lblBankProcess5.TabIndex = 8;
+            lblBankProcess5.Text = "Metin 5:";
             // 
             // label13
             // 
@@ -383,25 +343,65 @@
             lblBankProcess4.TabIndex = 6;
             lblBankProcess4.Text = "Metin 4:";
             // 
-            // label15
+            // label11
             // 
-            label15.AutoSize = true;
-            label15.Font = new Font("Calibri", 10.8F, FontStyle.Regular, GraphicsUnit.Point, 162);
-            label15.Location = new Point(6, 228);
-            label15.Name = "label15";
-            label15.Size = new Size(826, 22);
-            label15.TabIndex = 9;
-            label15.Text = "----------------------------------------------------------------------------------------------------------------------------------------";
+            label11.AutoSize = true;
+            label11.Font = new Font("Calibri", 10.8F, FontStyle.Regular, GraphicsUnit.Point, 162);
+            label11.Location = new Point(6, 140);
+            label11.Name = "label11";
+            label11.Size = new Size(826, 22);
+            label11.TabIndex = 5;
+            label11.Text = "----------------------------------------------------------------------------------------------------------------------------------------";
             // 
-            // lblBankProcess5
+            // lblBankProcess3
             // 
-            lblBankProcess5.AutoSize = true;
-            lblBankProcess5.Font = new Font("Calibri", 10.8F, FontStyle.Regular, GraphicsUnit.Point, 162);
-            lblBankProcess5.Location = new Point(6, 206);
-            lblBankProcess5.Name = "lblBankProcess5";
-            lblBankProcess5.Size = new Size(71, 22);
-            lblBankProcess5.TabIndex = 8;
-            lblBankProcess5.Text = "Metin 5:";
+            lblBankProcess3.AutoSize = true;
+            lblBankProcess3.Font = new Font("Calibri", 10.8F, FontStyle.Regular, GraphicsUnit.Point, 162);
+            lblBankProcess3.Location = new Point(6, 118);
+            lblBankProcess3.Name = "lblBankProcess3";
+            lblBankProcess3.Size = new Size(71, 22);
+            lblBankProcess3.TabIndex = 4;
+            lblBankProcess3.Text = "Metin 3:";
+            // 
+            // label9
+            // 
+            label9.AutoSize = true;
+            label9.Font = new Font("Calibri", 10.8F, FontStyle.Regular, GraphicsUnit.Point, 162);
+            label9.Location = new Point(6, 96);
+            label9.Name = "label9";
+            label9.Size = new Size(826, 22);
+            label9.TabIndex = 3;
+            label9.Text = "----------------------------------------------------------------------------------------------------------------------------------------";
+            // 
+            // lblBankProcess2
+            // 
+            lblBankProcess2.AutoSize = true;
+            lblBankProcess2.Font = new Font("Calibri", 10.8F, FontStyle.Regular, GraphicsUnit.Point, 162);
+            lblBankProcess2.Location = new Point(6, 74);
+            lblBankProcess2.Name = "lblBankProcess2";
+            lblBankProcess2.Size = new Size(71, 22);
+            lblBankProcess2.TabIndex = 2;
+            lblBankProcess2.Text = "Metin 2:";
+            // 
+            // label8
+            // 
+            label8.AutoSize = true;
+            label8.Font = new Font("Calibri", 10.8F, FontStyle.Regular, GraphicsUnit.Point, 162);
+            label8.Location = new Point(6, 52);
+            label8.Name = "label8";
+            label8.Size = new Size(826, 22);
+            label8.TabIndex = 1;
+            label8.Text = "----------------------------------------------------------------------------------------------------------------------------------------";
+            // 
+            // lblBankProcess1
+            // 
+            lblBankProcess1.AutoSize = true;
+            lblBankProcess1.Font = new Font("Calibri", 10.8F, FontStyle.Regular, GraphicsUnit.Point, 162);
+            lblBankProcess1.Location = new Point(6, 30);
+            lblBankProcess1.Name = "lblBankProcess1";
+            lblBankProcess1.Size = new Size(71, 22);
+            lblBankProcess1.TabIndex = 0;
+            lblBankProcess1.Text = "Metin 1:";
             // 
             // panel5
             // 
@@ -428,7 +428,7 @@
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.Silver;
-            ClientSize = new Size(1072, 487);
+            ClientSize = new Size(1301, 487);
             Controls.Add(panel5);
             Controls.Add(groupBox1);
             Controls.Add(panel4);
