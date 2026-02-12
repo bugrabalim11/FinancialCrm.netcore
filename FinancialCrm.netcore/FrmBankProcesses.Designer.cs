@@ -39,9 +39,11 @@
             lblİnvoicesFrom = new Button();
             lblBanksForm = new Button();
             lblCategoriesForm = new Button();
+            dtpStart = new DateTimePicker();
+            dtpEnd = new DateTimePicker();
+            btnList = new Button();
             dataGridView1 = new DataGridView();
-            txtSearchProcess = new TextBox();
-            btnSearchProcess = new Button();
+            lblTotalAmount = new Label();
             panel5.SuspendLayout();
             panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)dataGridView1).BeginInit();
@@ -187,34 +189,53 @@
             lblCategoriesForm.Text = "Kategoriler";
             lblCategoriesForm.UseVisualStyleBackColor = false;
             // 
+            // dtpStart
+            // 
+            dtpStart.CalendarFont = new Font("Calibri", 12F, FontStyle.Regular, GraphicsUnit.Point, 162);
+            dtpStart.Location = new Point(226, 63);
+            dtpStart.Name = "dtpStart";
+            dtpStart.Size = new Size(250, 27);
+            dtpStart.TabIndex = 7;
+            // 
+            // dtpEnd
+            // 
+            dtpEnd.CalendarFont = new Font("Calibri", 12F, FontStyle.Regular, GraphicsUnit.Point, 162);
+            dtpEnd.Location = new Point(506, 63);
+            dtpEnd.Name = "dtpEnd";
+            dtpEnd.Size = new Size(250, 27);
+            dtpEnd.TabIndex = 8;
+            // 
+            // btnList
+            // 
+            btnList.BackColor = Color.Transparent;
+            btnList.Font = new Font("Calibri", 12F, FontStyle.Regular, GraphicsUnit.Point, 162);
+            btnList.Location = new Point(795, 61);
+            btnList.Name = "btnList";
+            btnList.Size = new Size(94, 29);
+            btnList.TabIndex = 9;
+            btnList.Text = "Listele";
+            btnList.UseVisualStyleBackColor = false;
+            btnList.Click += btnList_Click;
+            // 
             // dataGridView1
             // 
             dataGridView1.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dataGridView1.Location = new Point(216, 112);
+            dataGridView1.Location = new Point(226, 118);
             dataGridView1.Name = "dataGridView1";
             dataGridView1.RowHeadersWidth = 51;
-            dataGridView1.Size = new Size(852, 376);
-            dataGridView1.TabIndex = 7;
+            dataGridView1.Size = new Size(842, 370);
+            dataGridView1.TabIndex = 10;
             // 
-            // txtSearchProcess
+            // lblTotalAmount
             // 
-            txtSearchProcess.Font = new Font("Calibri", 10.8F, FontStyle.Regular, GraphicsUnit.Point, 162);
-            txtSearchProcess.Location = new Point(344, 63);
-            txtSearchProcess.Name = "txtSearchProcess";
-            txtSearchProcess.Size = new Size(646, 29);
-            txtSearchProcess.TabIndex = 9;
-            txtSearchProcess.TextChanged += txtSearchProcess_TextChanged;
-            // 
-            // btnSearchProcess
-            // 
-            btnSearchProcess.BackColor = SystemColors.ActiveCaption;
-            btnSearchProcess.Location = new Point(216, 63);
-            btnSearchProcess.Name = "btnSearchProcess";
-            btnSearchProcess.Size = new Size(94, 29);
-            btnSearchProcess.TabIndex = 10;
-            btnSearchProcess.Text = "İşlem Ara";
-            btnSearchProcess.UseVisualStyleBackColor = false;
-            btnSearchProcess.Click += btnSearchProcess_Click;
+            lblTotalAmount.AutoSize = true;
+            lblTotalAmount.Font = new Font("Calibri", 12F, FontStyle.Regular, GraphicsUnit.Point, 162);
+            lblTotalAmount.Location = new Point(937, 61);
+            lblTotalAmount.Name = "lblTotalAmount";
+            lblTotalAmount.Size = new Size(113, 24);
+            lblTotalAmount.TabIndex = 11;
+            lblTotalAmount.Text = "Toplam Para";
+            lblTotalAmount.Click += lblTotalAmount_Click;
             // 
             // FrmBankProcesses
             // 
@@ -222,9 +243,11 @@
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = SystemColors.ActiveCaption;
             ClientSize = new Size(1070, 487);
-            Controls.Add(btnSearchProcess);
-            Controls.Add(txtSearchProcess);
+            Controls.Add(lblTotalAmount);
             Controls.Add(dataGridView1);
+            Controls.Add(btnList);
+            Controls.Add(dtpEnd);
+            Controls.Add(dtpStart);
             Controls.Add(panel1);
             Controls.Add(panel5);
             Name = "FrmBankProcesses";
@@ -251,8 +274,10 @@
         private Button lblİnvoicesFrom;
         private Button lblBanksForm;
         private Button lblCategoriesForm;
+        private DateTimePicker dtpStart;
+        private DateTimePicker dtpEnd;
+        private Button btnList;
         private DataGridView dataGridView1;
-        private TextBox txtSearchProcess;
-        private Button btnSearchProcess;
+        private Label lblTotalAmount;
     }
 }

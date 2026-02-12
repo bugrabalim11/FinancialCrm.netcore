@@ -33,5 +33,10 @@ namespace FinancialCrm.netcore
                 MessageBox.Show("Hatalı kullanıcı adı veya şifre!", "Giriş Başarısız!", MessageBoxButtons.OK, MessageBoxIcon.Warning);
             }
         }
+
+        private void FrmLogin_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

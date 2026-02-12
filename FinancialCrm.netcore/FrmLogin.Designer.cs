@@ -118,6 +118,7 @@
             Controls.Add(txtUserName);
             Name = "FrmLogin";
             Text = "FrmLogin";
+            Load += FrmLogin_Load;
             panel5.ResumeLayout(false);
             panel5.PerformLayout();
             ResumeLayout(false);
