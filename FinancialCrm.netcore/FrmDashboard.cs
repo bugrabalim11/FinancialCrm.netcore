@@ -90,6 +90,41 @@ namespace FinancialCrm.netcore
 
             dataGridView1.DataSource = values;
         }
+
+        private void lblSettingForm_Click(object sender, EventArgs e)
+        {
+            FrmSettings frmSettings = new FrmSettings();
+            frmSettings.Show();
+            this.Hide();
+        }
+
+        private void btnBillForm_Click(object sender, EventArgs e)
+        {
+            FrmBilling frmBilling = new FrmBilling();
+            frmBilling.Show();
+            this.Hide();
+        }
+
+        private void lblBanksForm_Click(object sender, EventArgs e)
+        {
+            FrmBanks frmBanks = new FrmBanks();
+            frmBanks.Show();
+            this.Hide();
+        }
+
+        private void lblBankForm_Click(object sender, EventArgs e)
+        {
+            FrmBankProcesses frmBankProcesses = new FrmBankProcesses();
+            frmBankProcesses.Show();
+            this.Hide();
+        }
+
+        private void lblExitForm_Click(object sender, EventArgs e)
+        {
+            FrmLogin frmLogin = new FrmLogin();
+            frmLogin.Show();
+            this.Hide();
+        }
     }
-    
+
 }

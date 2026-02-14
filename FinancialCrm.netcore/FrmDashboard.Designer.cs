@@ -87,6 +87,7 @@
             lblExitForm.TabIndex = 8;
             lblExitForm.Text = "Çıkış Yap";
             lblExitForm.UseVisualStyleBackColor = false;
+            lblExitForm.Click += lblExitForm_Click;
             // 
             // lblSettingForm
             // 
@@ -100,6 +101,7 @@
             lblSettingForm.TabIndex = 7;
             lblSettingForm.Text = "Ayarlar ";
             lblSettingForm.UseVisualStyleBackColor = false;
+            lblSettingForm.Click += lblSettingForm_Click;
             // 
             // lblDashboardForm
             // 
@@ -126,6 +128,7 @@
             lblBankForm.TabIndex = 5;
             lblBankForm.Text = "Banka";
             lblBankForm.UseVisualStyleBackColor = false;
+            lblBankForm.Click += lblBankForm_Click;
             // 
             // btnBillForm
             // 
@@ -139,6 +142,7 @@
             btnBillForm.TabIndex = 4;
             btnBillForm.Text = "Giderler";
             btnBillForm.UseVisualStyleBackColor = false;
+            btnBillForm.Click += btnBillForm_Click;
             // 
             // lblİnvoicesFrom
             // 
@@ -165,6 +169,7 @@
             lblBanksForm.TabIndex = 2;
             lblBanksForm.Text = "Bankalar";
             lblBanksForm.UseVisualStyleBackColor = false;
+            lblBanksForm.Click += lblBanksForm_Click;
             // 
             // lblCategoriesForm
             // 
