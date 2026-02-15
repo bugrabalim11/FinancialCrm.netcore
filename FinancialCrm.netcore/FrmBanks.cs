@@ -85,6 +85,13 @@ namespace FinancialCrm.netcore
                 lblBankProcess5.Text = "Hareket Yok";
             }
         }
+
+        private void btnBackToDashboard_Click(object sender, EventArgs e)
+        {
+            FrmDashboard frm = new FrmDashboard();
+            frm.ShowDialog();
+            this.Close();
+        }
     }
 }
 

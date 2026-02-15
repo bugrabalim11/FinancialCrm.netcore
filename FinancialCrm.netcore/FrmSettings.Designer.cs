@@ -47,6 +47,7 @@
             btnCreate = new Button();
             txtUserId = new TextBox();
             label3 = new Label();
+            btnBackToDashboard = new Button();
             panel5.SuspendLayout();
             panel1.SuspendLayout();
             SuspendLayout();
@@ -263,9 +264,20 @@
             label3.Font = new Font("Calibri", 12F, FontStyle.Regular, GraphicsUnit.Point, 162);
             label3.Location = new Point(487, 113);
             label3.Name = "label3";
-            label3.Size = new Size(112, 24);
+            label3.Size = new Size(107, 24);
             label3.TabIndex = 16;
-            label3.Text = "Kullanıcı IDı:";
+            label3.Text = "Kullanıcı ID:";
+            // 
+            // btnBackToDashboard
+            // 
+            btnBackToDashboard.Font = new Font("Calibri", 12F, FontStyle.Regular, GraphicsUnit.Point, 162);
+            btnBackToDashboard.Location = new Point(891, 64);
+            btnBackToDashboard.Name = "btnBackToDashboard";
+            btnBackToDashboard.Size = new Size(159, 73);
+            btnBackToDashboard.TabIndex = 18;
+            btnBackToDashboard.Text = "Dashboard a dön";
+            btnBackToDashboard.UseVisualStyleBackColor = true;
+            btnBackToDashboard.Click += btnBackToDashboard_Click;
             // 
             // FrmSettings
             // 
@@ -273,6 +285,7 @@
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = SystemColors.InactiveCaption;
             ClientSize = new Size(1071, 482);
+            Controls.Add(btnBackToDashboard);
             Controls.Add(txtUserId);
             Controls.Add(label3);
             Controls.Add(btnCreate);
@@ -314,5 +327,6 @@
         private Button btnCreate;
         private TextBox txtUserId;
         private Label label3;
+        private Button btnBackToDashboard;
     }
 }

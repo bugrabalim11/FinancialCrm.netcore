@@ -21,7 +21,14 @@ namespace FinancialCrm.netcore
 
         private void FrmSettings_Load(object sender, EventArgs e)
         {
+            txtUserId.Text = UserSession.UserId.ToString();
 
+            var user = db.Users.Find(UserSession.UserId);
+            if (user != null)
+            {
+                txtUsername.Text = user.UserName;
+                txtPassword.Text = user.Password;
+            }
         }
 
         //private void button1_Click(object sender, EventArgs e)
@@ -42,12 +49,19 @@ namespace FinancialCrm.netcore
 
         private void btnUpdate_Click(object sender, EventArgs e)
         {
-            int id = int.Parse(txtUserId.Text);
+            int id = UserSession.UserId;
             var user = db.Users.Find(id);
-            user.UserName=txtUsername.Text;
-            user.Password=txtPassword.Text;
+            user.UserName = txtUsername.Text;
+            user.Password = txtPassword.Text;
             db.SaveChanges();
             MessageBox.Show("Güncelleme İşlemi Başarılı!", "Uyarı", MessageBoxButtons.OK, MessageBoxIcon.Information);
+        }
+
+        private void btnBackToDashboard_Click(object sender, EventArgs e)
+        {
+            FrmDashboard frm = new FrmDashboard();
+            frm.Show();
+            this.Close(); 
         }
     }
 }

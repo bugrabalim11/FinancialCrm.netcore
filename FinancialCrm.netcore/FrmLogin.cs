@@ -24,6 +24,9 @@ namespace FinancialCrm.netcore
             var user = db.Users.FirstOrDefault(x => x.UserName == txtUserName.Text && x.Password == txtPassword.Text);
             if (user != null)
             {
+                UserSession.UserId = user.UserId;
+                UserSession.UserName = txtUserName.Text;
+
                 FrmDashboard frm = new FrmDashboard();
                 frm.Show();
                 this.Hide();
@@ -36,7 +39,12 @@ namespace FinancialCrm.netcore
 
         private void FrmLogin_Load(object sender, EventArgs e)
         {
-
+            var user = db.Users.Find(UserSession.UserId);
+            if (user != null)
+            {
+                txtUserName.Text = user.UserName;
+                txtPassword.Text = user.Password;
+            }
         }
     }
 }

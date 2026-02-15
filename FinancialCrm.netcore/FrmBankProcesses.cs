@@ -60,7 +60,14 @@ namespace FinancialCrm.netcore
 
         private void lblTotalAmount_Click(object sender, EventArgs e)
         {
-            
+
+        }
+
+        private void btnBackToDashboard_Click(object sender, EventArgs e)
+        {
+            FrmDashboard frm = new FrmDashboard();
+            frm.Show();
+            this.Close();
         }
     }
 }

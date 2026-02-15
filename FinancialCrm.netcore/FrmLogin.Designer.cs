@@ -90,9 +90,9 @@
             label17.ForeColor = SystemColors.ButtonHighlight;
             label17.Location = new Point(19, 15);
             label17.Name = "label17";
-            label17.Size = new Size(218, 24);
+            label17.Size = new Size(223, 24);
             label17.TabIndex = 0;
-            label17.Text = "Finncial CRM Giriş Paneli";
+            label17.Text = "Finansal CRM Giriş Paneli";
             // 
             // btnLogin
             // 

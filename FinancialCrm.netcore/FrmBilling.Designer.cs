@@ -51,6 +51,7 @@
             txtBillId = new TextBox();
             label1 = new Label();
             dataGridView1 = new DataGridView();
+            btnBackToDashboard = new Button();
             panel2.SuspendLayout();
             panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)dataGridView1).BeginInit();
@@ -59,6 +60,7 @@
             // panel2
             // 
             panel2.BackColor = Color.FromArgb(44, 62, 80);
+            panel2.Controls.Add(btnBackToDashboard);
             panel2.Controls.Add(lblExitForm);
             panel2.Controls.Add(lblSettingForm);
             panel2.Controls.Add(lblDashboardForm);
@@ -333,6 +335,17 @@
             dataGridView1.Size = new Size(873, 220);
             dataGridView1.TabIndex = 4;
             // 
+            // btnBackToDashboard
+            // 
+            btnBackToDashboard.Font = new Font("Calibri", 12F, FontStyle.Regular, GraphicsUnit.Point, 162);
+            btnBackToDashboard.Location = new Point(3, 423);
+            btnBackToDashboard.Name = "btnBackToDashboard";
+            btnBackToDashboard.Size = new Size(205, 30);
+            btnBackToDashboard.TabIndex = 20;
+            btnBackToDashboard.Text = "Dashboard a dön";
+            btnBackToDashboard.UseVisualStyleBackColor = true;
+            btnBackToDashboard.Click += btnBackToDashboard_Click;
+            // 
             // FrmBilling
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
@@ -377,5 +390,6 @@
         private Button btnRemoveBill;
         private Button btnCreateBill;
         private DataGridView dataGridView1;
+        private Button btnBackToDashboard;
     }
 }

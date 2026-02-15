@@ -44,6 +44,7 @@
             btnList = new Button();
             dataGridView1 = new DataGridView();
             lblTotalAmount = new Label();
+            btnBackToDashboard = new Button();
             panel5.SuspendLayout();
             panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)dataGridView1).BeginInit();
@@ -52,6 +53,7 @@
             // panel5
             // 
             panel5.BackColor = SystemColors.MenuHighlight;
+            panel5.Controls.Add(btnBackToDashboard);
             panel5.Controls.Add(label17);
             panel5.Location = new Point(-1, 0);
             panel5.Name = "panel5";
@@ -237,6 +239,17 @@
             lblTotalAmount.Text = "Toplam Para";
             lblTotalAmount.Click += lblTotalAmount_Click;
             // 
+            // btnBackToDashboard
+            // 
+            btnBackToDashboard.Font = new Font("Calibri", 12F, FontStyle.Regular, GraphicsUnit.Point, 162);
+            btnBackToDashboard.Location = new Point(748, 8);
+            btnBackToDashboard.Name = "btnBackToDashboard";
+            btnBackToDashboard.Size = new Size(321, 30);
+            btnBackToDashboard.TabIndex = 19;
+            btnBackToDashboard.Text = "Dashboard a dön";
+            btnBackToDashboard.UseVisualStyleBackColor = true;
+            btnBackToDashboard.Click += btnBackToDashboard_Click;
+            // 
             // FrmBankProcesses
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
@@ -279,5 +292,6 @@
         private Button btnList;
         private DataGridView dataGridView1;
         private Label lblTotalAmount;
+        private Button btnBackToDashboard;
     }
 }

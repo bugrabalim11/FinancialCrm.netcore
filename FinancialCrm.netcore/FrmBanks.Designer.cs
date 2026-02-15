@@ -59,6 +59,7 @@
             lblBankProcess1 = new Label();
             panel5 = new Panel();
             label17 = new Label();
+            btnBackToDashboard = new Button();
             panel1.SuspendLayout();
             panel2.SuspendLayout();
             panel3.SuspendLayout();
@@ -406,6 +407,7 @@
             // panel5
             // 
             panel5.BackColor = SystemColors.ActiveCaption;
+            panel5.Controls.Add(btnBackToDashboard);
             panel5.Controls.Add(label17);
             panel5.Location = new Point(1, 0);
             panel5.Name = "panel5";
@@ -422,6 +424,17 @@
             label17.Size = new Size(121, 24);
             label17.TabIndex = 0;
             label17.Text = "Banka Formu";
+            // 
+            // btnBackToDashboard
+            // 
+            btnBackToDashboard.Font = new Font("Calibri", 12F, FontStyle.Regular, GraphicsUnit.Point, 162);
+            btnBackToDashboard.Location = new Point(748, 8);
+            btnBackToDashboard.Name = "btnBackToDashboard";
+            btnBackToDashboard.Size = new Size(321, 30);
+            btnBackToDashboard.TabIndex = 20;
+            btnBackToDashboard.Text = "Dashboard a dön";
+            btnBackToDashboard.UseVisualStyleBackColor = true;
+            btnBackToDashboard.Click += btnBackToDashboard_Click;
             // 
             // FrmBanks
             // 
@@ -485,5 +498,6 @@
         private Label lblBankProcess1;
         private Panel panel5;
         private Label label17;
+        private Button btnBackToDashboard;
     }
 }

@@ -89,7 +89,14 @@ namespace FinancialCrm.netcore
 
                 var values = db.Bills.ToList();
                 dataGridView1.DataSource = values;
-            } 
+            }
+        }
+
+        private void btnBackToDashboard_Click(object sender, EventArgs e)
+        {
+            FrmDashboard frm = new FrmDashboard();
+            frm.Show();
+            this.Close();
         }
     }
 }
